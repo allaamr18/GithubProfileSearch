@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+   
+    <title>GitHub User Search</title>
+
+</head>     
+
+<body class="body">
+
+    <h1 class = "title"> Github Profile Search</h1>
+    <section class = "search">
+
+        <input type="text" id="searchInput" placeholder="Enter GitHub username">
+        <button id="searchButton">Search</button>
+ </section>
+
+ <p id="error-message"></p>
+
+    
+    <section class = "profile">
+
+            <h2> Profile </h2>
+            <div class = "profile-content">
+            <img id = "profile-image" src="images/placeholder.webp">
+    
+            <div class="profile-info">
+            
+            <h3 id = "profile-name"> Name </h3>
+            <p id = "username">Username</p>
+            <p id = "bio">Bio</p>
+            <p id="followers">Followers: 0</p>
+            <p id="following">Following: 0</p>
+
+                </div>
+            </div>
+            <h2>Repositories</h2>
+            <div id="repositories">
+
+
+            </div>
+    </section>
+
+
+
+
+
+ <script src="script.js"></script>
+</body>
+</html>

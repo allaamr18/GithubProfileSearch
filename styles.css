@@ -1,0 +1,147 @@
+.body {
+    background-color: #0d1117;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    color: #fdfbfb;
+    font-size: 40px;
+    padding: 10px;
+    font-family: Playfair Display;
+
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.search input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.search button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #585050;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 50px;
+   
+}
+
+.search button:hover {
+    background-color: #0056b3;
+}
+
+
+.profile {
+    width: 50%;
+    min-height: 300px;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 30px 50px;
+    margin: 20px auto;
+    color: #fdfbfb;
+    padding-left: 80px;
+    background-color: #161b22;
+}
+
+.profile h2{
+ 
+    font-size: 20px;
+    text-decoration: underline;
+    margin:auto auto;
+    text-align: center;
+    }
+
+    .profile-info{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        gap: 20px;
+
+    }
+
+    .profile-info h3,
+    .profile-info p {
+    margin: 5px;
+}
+
+    .profile-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+        margin-top:20px;
+        
+    }
+
+    #profile-image{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+
+    }
+
+     .profile-content + h2 {
+    margin-top: 50px;
+     }
+
+
+       
+    #repositories{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        justify-content: center;
+        align-items: center;
+    }
+    #repositories a{
+        text-decoration: none;
+        color:white;
+        padding: 10px 15px;
+        border:1px solid white;
+        border-radius: 10%;
+        width:250px;
+        text-align: center;
+        transition: background-color 0.3s;
+        transition:font-size 0.3s;
+    }
+
+   
+
+    #repositories a:hover{
+        text-decoration:underline;
+        font-size: 25px;
+        
+        color:#161b22;
+        background-color: whitesmoke;
+        
+    }
+    #error-message{
+            color:white;
+            color: #ff6b6b;
+            text-align: center;
+            font-size: 18px;
+            margin-top: 0;
+}
+
+
+
+
+

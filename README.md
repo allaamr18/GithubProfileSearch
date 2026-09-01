@@ -34,7 +34,7 @@ When a username is entered, the app:
 
 ## Live Demo
 
-https://github-profile-search-lilac.vercel.app)
+allaamr18.github.io/GithubProfileSearch/
 
 ## Author
 Allaam Raheem
